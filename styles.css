@@ -1,0 +1,84 @@
+body {
+    background: url(./img/fondo1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s;
+    padding: 1%;
+}
+
+header.active {
+    background: rgba(29, 29, 29, 0.8);
+    padding: 0.3%;
+}
+
+.nav {
+    margin-left: 60%;
+    font-family: 'Silkscreen', cursive;
+}
+
+.navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+
+.saludo {
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+#saludo {
+    margin-left: 20%;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Silkscreen', cursive;
+    color: rgba(0, 255, 133, 1);
+    font-size: 55px;
+}
+
+h2, h3, h4, p{
+    font-family: 'Silkscreen', cursive;
+    color: rgba(255, 255, 255, 1);
+}
+
+.about {
+    margin: 3% 10%;
+    padding: 1.5%;
+}
+
+.card {
+    background-color: rgba(29, 29, 29, 0.8);
+    border-radius: 0;
+}
+
+.btn {
+    width: 20%;
+    border-radius: 0;
+}
+
+.iconos {
+    width: 7%; 
+    margin-left: 7%;
+    display: flex;
+}
+
+.card-img-top {
+    margin-left: 50%;
+}
+
+footer {
+    background: rgba(29, 29, 29, 1);
+}
+
+.contacto {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
