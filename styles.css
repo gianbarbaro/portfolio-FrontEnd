@@ -51,11 +51,25 @@ h2, h3, h4, p{
 .about {
     margin: 3% 10%;
     padding: 1.5%;
+    position: static;
+}
+
+.boton {
+    width: 10%;
+    display: flex;
 }
 
 .card {
     background-color: rgba(29, 29, 29, 0.8);
     border-radius: 0;
+}
+
+.proyecto-card {
+    background-color: rgba(29, 29, 29, 0.8);
+    border-radius: 0;
+    padding: 6%;
+    width: 20%;
+    margin-left: 10%;
 }
 
 .btn {
@@ -75,6 +89,7 @@ h2, h3, h4, p{
 
 footer {
     background: rgba(29, 29, 29, 1);
+    margin-top: 5%;
 }
 
 .contacto {
