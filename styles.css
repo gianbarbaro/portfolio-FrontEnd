@@ -10,6 +10,7 @@ header {
     width: 100%;
     transition: 0.7s;
     padding: 1%;
+    z-index: 1;
 }
 
 header.active {
@@ -24,6 +25,14 @@ header.active {
 
 .navbar-brand {
     color: rgba(255, 255, 255, 1);
+    transition: all 0.5s ease;
+}
+
+.nav a:hover {
+    padding: 5px 10px;
+    background: rgba(0, 255, 133, 1);
+    color: rgba(29, 29, 29, 1);
+    border-radius: 15px;
 }
 
 .saludo {
@@ -36,6 +45,7 @@ header.active {
 }
 
 h1 {
+    position: relative;
     text-align: center;
     padding: 30px;
     font-family: 'Silkscreen', cursive;
@@ -44,6 +54,7 @@ h1 {
 }
 
 h2, h3, h4, p{
+    position: relative;
     font-family: 'Silkscreen', cursive;
     color: rgba(255, 255, 255, 1);
 }
@@ -78,6 +89,12 @@ h2, h3, h4, p{
 }
 
 .iconos {
+    width: 30px;
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+.skills {
     width: 7%; 
     margin-left: 7%;
     display: flex;
@@ -90,10 +107,13 @@ h2, h3, h4, p{
 footer {
     background: rgba(29, 29, 29, 1);
     margin-top: 5%;
+    display: flex;
 }
 
 .contacto {
+    width: 15rem;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 10%;
+    margin-left: 12%;
+    padding-left: 4%;
 }
